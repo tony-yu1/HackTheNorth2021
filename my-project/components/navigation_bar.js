@@ -22,7 +22,12 @@ function Navigation_bar() {
             <Icon name="description" size="5xl" color="black" />
 
 
+            <h1 className="ml-2 text-black-700 trext-2xl">appname</h1>
 
+            <div className="flex flex-grow ">
+                <icon name="search" size="3xl" color="black" />
+                <input type="text" placeholder="Search" />
+            </div>
         </div>
     )
 }
