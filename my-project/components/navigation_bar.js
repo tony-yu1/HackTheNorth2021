@@ -5,7 +5,7 @@ function Navigation_bar() {
     return (
       
         
-        <div className="flex items-center"> 
+        <div className="sticky top-0 z-50 flex items-center px-4 py-2 shadow-md bg-white"> 
 
             <h1>hi</h1>
             <Button 
@@ -19,7 +19,7 @@ function Navigation_bar() {
                 <Icon name="menu" size="3xl" />
             </Button>
 
-            <Icon name="description" size="5xl" color="blue" />
+            <Icon name="description" size="5xl" color="black" />
 
 
 
