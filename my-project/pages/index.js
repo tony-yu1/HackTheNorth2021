@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navigation_bar from '../components/navigation_bar.js';
 import Icon from "@material-tailwind/react/Icon";
 import Button from "@material-tailwind/react/Button";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -32,8 +33,15 @@ export default function Home() {
           </div>
 
           <div>
+            <div className="relative h-52 w-40 border-2 cursor-pointer hover:border-black">
+            <Image
+              src='https://links.papareact.com/pju' layout="fill" />
 
+            </div>
+
+            <p>Blank</p>
           </div>
+
         </div>
       </section>
 
