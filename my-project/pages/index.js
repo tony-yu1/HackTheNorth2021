@@ -16,7 +16,7 @@ export default function Home() {
       <section className='bg-[#f7f7f7] pb-10 px-10'>
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center justify-between py-6">
-            <h2 className="text-lg">Start a new file</h2>
+            <h2 className="text-lg">Start a new project</h2>
           
             <Button 
                             color="black"
