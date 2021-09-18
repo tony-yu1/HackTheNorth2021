@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import navigation_bar from '../components/navigation_bar'
+import Head from 'next/head';
+import Navigation_bar from '../components/navigation_bar.js';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <navigation_bar />
+      <Navigation_bar />
 
     </div>
   )
