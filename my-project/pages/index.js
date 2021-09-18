@@ -11,6 +11,13 @@ export default function Home() {
 
       <Navigation_bar />
 
+      <section>
+        <div className="max-w-3xl mx-auto">
+          
+
+        </div>
+      </section>
+
     </div>
   )
 }
